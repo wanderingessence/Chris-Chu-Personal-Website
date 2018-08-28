@@ -1,0 +1,148 @@
+#background {
+   			 display: block;
+    		 margin-left: auto;
+    		 margin-right: auto;
+    		 text-align: center;
+}
+
+
+
+#nav{
+	z-index: 100;
+	position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#planet{
+	z-index: -100;
+}
+
+#nav a{
+	color: white;
+	text-decoration: none;
+	font-family: "Lucida Console";
+	padding-right: 30px;
+}
+   
+#nav a:hover{
+	color: #00bfff;
+}
+
+#name {
+	color: white;
+	font-family: "Lucida Console";
+	font-size: 60px;
+	font-weight: 450;
+	z-index: 100;
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#description{
+	color: white;
+	font-family: "Lucida Console";
+	font-size: 20px;
+	font-weight: 450;
+	z-index: 100;
+	position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#fb{
+
+	position: absolute;
+    top: 70%;
+    left: 40%;
+
+}
+
+#git{
+	position: absolute;
+    top: 70%;
+    left: 45%;
+}
+
+#link{
+	position: absolute;
+    top: 69%;
+    left: 50%;
+}
+
+#discord{
+	position: absolute;
+    top: 70%;
+    left: 55%;
+}
+
+#about{
+	 border: 3px solid #011931;
+}
+
+#about p{
+	color: #D2D0D1;
+	font-family: "Arial";
+}
+
+#abouttext{
+	width: 50%;
+	padding-left: 35%;
+	padding-top: 7%;
+}
+
+#about h1{
+	color: #D2D0D1;
+	font-family: "Arial";
+}
+
+#about h5{
+	color: #D2D0D1;
+	font-family: "Arial";
+}
+
+#pic {
+	position: relative;
+	bottom: 450px;
+	right: 700px;
+	border-radius: 50%;
+}
+
+#clickresume{
+	background-color: #8c2020; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    bottom: 275px;
+}
+
+#clickresume:hover {
+    background-color:white; 
+    color: black;
+    border: 2px solid #8c2020;
+}
+
+#description a:hover{
+	color: #00bfff;
+}
+
+#description a{
+	color: white;
+}
+
+#button a {
+	color: white;
+}
