@@ -146,3 +146,14 @@
 #button a {
 	color: white;
 }
+
+#pp {
+	position: relative;
+	top: 125px;
+	left: 275px;
+}
+
+#contactme{
+	color: white;
+	border: 3px solid #1a0000;
+}
